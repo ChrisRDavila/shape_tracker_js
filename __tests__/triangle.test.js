@@ -1,3 +1,4 @@
+import { example } from 'yargs';
 import Triangle from './../src/triangle.js';
 
 describe('Triangle', () => {
@@ -29,5 +30,27 @@ describe('Triangle', () => {
     expect(equiTriangle.checkType()).toEqual("equilateral triangle");
   });
 });
+
+// tear down example
+// describe('show how beforeEach() works', () => {
+//   let reusableTriangle;
+
+//   beforeEach(() => {
+//     reusableTriangle = new Triangle(5, 5, 5);
+//   });
+
+//   test('should use the resuableTriangle and update the value of one side', () => {
+//     reusableTriangle.side1 = 6;
+//     console.log(reusableTriangle);
+//   });
+
+//   test('should show how this reusableTriangle is reset to sides of 5', () => {
+//     console.log(reusableTriangle);
+//   });
+// });
+
+// afterEach(() => {
+//   this code is run after each test
+// });
 
 
