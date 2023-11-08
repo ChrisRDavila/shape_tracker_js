@@ -1,5 +1,5 @@
-import { example } from 'yargs';
-import Triangle from './../src/triangle.js';
+// import { example } from 'yargs';
+import Triangle from '../src/js/triangle.js';
 
 describe('Triangle', () => {
 
